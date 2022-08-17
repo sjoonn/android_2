@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/str_title"
+        android:textSize="35sp"/>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/tvLotto1"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/tvLotto2"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/tvLotto3"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_mint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="33"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/tvLotto4"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_purple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="37"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/tvLotto5"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_purple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/tvLotto6"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="68dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로또번호 중복 허용"
+        android:id="@+id/cbIsSame"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로또 번호 생성하기"
+        android:id="@+id/btnNew"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="저장하기"
+        android:id="@+id/btnSave"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="생성된 로또번호 리스트보기"
+        android:id="@+id/btnShowList"/>
+
+</LinearLayout>
