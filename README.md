@@ -47,4 +47,14 @@
         setContentView(binding.root)
 ```
 
-### 
+### 중복 체크박스 
+```kotlin
+   binding.btnNew.setOnClickListener {
+            if (binding.cbIsSame.isChecked) {
+                getLottoNumber1()
+            } else {
+                getLottoNumber2()
+            }
+            binding.btnSave.isEnabled = true
+        }
+```
