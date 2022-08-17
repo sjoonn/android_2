@@ -30,17 +30,6 @@
 ![스크린샷 2022-08-17 오전 11 52 15](https://user-images.githubusercontent.com/102125786/185024166-4285a971-b690-446c-8790-b97a306cafc4.png)
 
 # <div align="center"> ✍🏻 중요한 내용 ✍🏻 </div>
-### 로또 공(drawble)
-```kotlin
-   <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
-    <solid android:color="#0000ff"/>
-    <size
-        android:width="50dp"
-        android:height="50dp"/>>
-</shape>
-```
 
 ### binding(build.gradle)
 ```kotlin
